@@ -1,0 +1,22 @@
+body {
+    background-image: url(./images/pexels-photo-5700184.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.total{
+    background-color: rgba(50, 50, 250, 0.7);
+    padding: 35px;
+    ;
+}
+input[type=text],[type=email],[type=number] {
+    width: 80%;
+    height: 26px;
+}
+# dropdown{
+    width: 80%;
+}

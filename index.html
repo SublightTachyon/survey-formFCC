@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Form project
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body></body>
+   <div class="total"> 
+    <h1 id="title">Computer Programmer Survey</h1>
+    <p id="description">Thank you for making time to take our survey</p>
+    <div class=survey1>
+        <form action="#" id="survey-form" class=>
+            <label for="name" id="name-label">Enter your name</label><br>
+            <input id="name" type="text" placeholder="name" class="txt-input"required>
+            <br>
+
+            <label for="email" id="email-label">Email</label><br>
+            <input id="email" type="email" placeholder="email" class="txt-input"required>
+            <br>
+
+            <label for=age id="number-label">Age</label><br>
+            <input id="age" type="number" min="16" max="99" placeholder="age" class=""txt-input>
+            <br>
+
+            <label for="career">Which best desribes your job.</label><br>
+            <select name="career" id="dropdown">
+                <option value="front-end">Front-end</option>
+                <option value="playstation">Back-end</option>
+                <option value="xbox">Full stack</option>
+                <option value="pc">Mobile</option>
+                <option value="ux">UX/UI</option>
+                <option value="data-scientist">Data Scientist</option>
+            </select><br>
+            <p>Favorite Operating System</p>
+            <input type="radio" id="linux" name="fav-os" value=LINUX">
+            <label for="linux">Linux</label><br>
+            <input type="radio" id="macos" name="fav-os" value="MAC">
+            <label for="macos">MacOS</label><br>
+            <input type="radio" id="windows" name="fav-os" value="WINDOWS">
+            <label for="windows">Windows</label><br>
+            <input type="radio" id="other"name="fav-os" value="OTHER">
+            <label for="other">Other</label>
+                                          
+            
+            <p>What are the main languages you utilize in your work.</p>
+            
+            <label for="python"><input id="python" type="checkbox" name="language"> Python</label>
+            <label for="javascript"><input id="javascript" type="checkbox" name="language"> Javascript</label>
+            <label for="java"><input id="java" type="checkbox" name="language"> Java</label>
+            <label for="c#"><input id="c#" type="checkbox" name="language"> C#</label>
+            <label for="php"><input id="php" type="checkbox" name="language"> php</label>
+            <label for="go"><input id="go" type="checkbox" name="language"> Go</label>
+
+            <p>Comments</p>
+
+            <textarea id="comments" name="comments" rows="4" cols="35">
+                Please leave a comment and tell us anything.
+            </textarea> 
+                
+            
+            <button type="submit">Submit</button>
+        </form> 
+    </div>
+    </div>
+</body>
+</html>
